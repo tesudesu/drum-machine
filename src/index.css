@@ -1,13 +1,86 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #1F0459;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+    background-color: #2F0787;
+    font-size: xx-large;
+    color: #F6F754;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #F6F754;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3D09AD;
+}
+
+button:active {
+    background-color: #F6F754;
+    border: 3px solid #1F0459;
+    color: #2F0787;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 15%;
+    border: 3px solid #F6F754;
+    box-shadow: 0px 0px 20px 10px rgb(106, 106, 106);
+    width: 600px;
+}
+
+#drum-machine {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    gap: 10px;
+}
+
+#display {
+    text-align: center;
+}
+
+#track-name {
+    background-color: rgb(181, 181, 181);
+    width: 200px;
+    font: 25px monospace;
+    padding: 2px;
+}
+
+.labels {
+    font: 15px Verdana, sans-serif;
+    color: #F6F754;
+}
+
+#volume-slider {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 85%;
+    height: 5px;
+    background: #fefec3;
+}
+
+#volume-slider::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    background: #F6F754;
+    width: 12px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#volume-slider::-moz-range-thumb {
+    background: #F6F754;
+    width: 12px;
+    height: 20px;
+    cursor: pointer;
 }
