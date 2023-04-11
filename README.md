@@ -1,5 +1,10 @@
 ## Drum Machine
 
-Application made from scratch using knowledge of HTML, CSS, and JavaScript (React)
+Web application: https://tesudesu.github.io/drum-machine/
 
-**Demo:** https://tesudesu.github.io/drum-machine/
+Plays sounds on key press or click.
+Completed towards freeCodeCamp Front End Development Libraries certification.
+
+Technologies: HTML, vanilla CSS, React, create-react-app
+
+Designed and coded by me :grin:
